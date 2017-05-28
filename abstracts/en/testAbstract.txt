@@ -1,0 +1,4 @@
+bmotion plugin test!!%|multiline%|isn't this fun
+yar yar yar yar
+pie.
+/testing actions

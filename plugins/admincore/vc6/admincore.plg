@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: admincore - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP189.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "../../../" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ADMINCORE_EXPORTS" /D "BMOTION_PLUGIN" /Fp"Debug/admincore.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\Desktop\bmotion-lib\plugins\admincore\admincore.cpp"
+"C:\Documents and Settings\Administrator\Desktop\bmotion-lib\plugins\admincore\lang.cpp"
+"C:\Documents and Settings\Administrator\Desktop\bmotion-lib\plugins\admincore\status.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP189.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/libadmincore.pdb" /debug /machine:I386 /def:".\admincore.def" /out:"../../libadmincore.dll" /implib:"Debug/libadmincore.lib" /pdbtype:sept 
+".\Debug\admincore.obj"
+".\Debug\lang.obj"
+".\Debug\status.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18A.tmp"
+<h3>Output Window</h3>
+Compiling...
+admincore.cpp
+lang.cpp
+status.cpp
+Linking...
+   Creating library Debug/libadmincore.lib and object Debug/libadmincore.exp
+
+
+
+<h3>Results</h3>
+libadmincore.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

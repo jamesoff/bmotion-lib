@@ -1,0 +1,6 @@
+LIBRARY libadmincore
+
+EXPORTS
+	Init
+	bmotion_admin_lang
+	bmotion_admin_status

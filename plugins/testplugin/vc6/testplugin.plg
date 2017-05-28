@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: testplugin - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19B.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "../../../" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "TESTPLUGIN_EXPORTS" /D "BMOTION_PLUGIN" /Fp"Debug/testplugin.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\Desktop\bmotion-lib\plugins\testplugin\testplugin.cpp"
+"C:\Documents and Settings\Administrator\Desktop\bmotion-lib\plugins\testplugin\testplugin2.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19B.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/libtestplugin.pdb" /debug /machine:I386 /def:".\testplugin.def" /out:"../../libtestplugin.dll" /implib:"Debug/libtestplugin.lib" /pdbtype:sept 
+".\Debug\testplugin.obj"
+".\Debug\testplugin2.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19C.tmp"
+<h3>Output Window</h3>
+Compiling...
+testplugin.cpp
+testplugin2.cpp
+Linking...
+   Creating library Debug/libtestplugin.lib and object Debug/libtestplugin.exp
+
+
+
+<h3>Results</h3>
+libtestplugin.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

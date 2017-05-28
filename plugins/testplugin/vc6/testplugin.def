@@ -1,0 +1,6 @@
+LIBRARY libtestplugin
+
+EXPORTS
+	Init
+	bmotion_test_function
+	bmotion_test_output

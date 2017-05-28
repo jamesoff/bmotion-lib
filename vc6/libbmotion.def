@@ -1,0 +1,32 @@
+LIBRARY LIBBMOTION
+
+EXPORTS
+	bMotionInit
+	bMotionEventOnJoin
+	bMotionEventOnPart
+	bMotionEventOnQuit
+	bMotionEventMain
+	bMotionEventMode
+	bMotionEventNick
+	bMotionEventAction
+	bMotionDoAction
+	bMotionSetOutput
+	bMotionLog
+	bMotionAddTimer
+	bMotionUseLanguage
+	bMotionStatus
+	bMotionAbstractRegister
+	bMotionAbstractBatchAdd
+	bMotionMoodIncrease
+	bMotionMoodDecrease
+	bMotionMoodCreate
+	bMotionMoodGet
+	bMotionSet
+	bMotionGet
+	bMotionStatus
+	bMotionRegisterSimple
+	bMotionRegisterComplex
+	bMotionRegisterEvent
+	bMotionRegisterAdmin
+	bMotionRegisterOutput
+	bMotionInfo
